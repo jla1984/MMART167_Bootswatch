@@ -1,0 +1,105 @@
+.logo {
+       width: 300px;
+       height: auto;
+}
+
+.navbar .navbar-toggler {
+       border-color: #FAF3E9;
+       background-color: #FAF3E9;
+       margin: 0 auto;
+}
+
+.nav-btn {
+       font-size: 28px;
+       color: #FAF3E9;
+       border-color: #FAF3E9;
+       border: 7px solid;
+       border-style: outset;
+}
+
+.content {
+       text-align: center;
+}
+
+.content video {
+       display: block;
+       margin: 0 auto;
+}
+
+.nav-btn:hover {
+       color: #3DA8C8;
+       border-color: #3DA8C8;
+       border-style: inset;
+       text-shadow: 0 0 5px #e8fc03;
+}
+
+.nav-item {
+       padding: 10px 10px;
+}
+
+.flex {
+       display: flex;
+       justify-content: center;
+}
+
+img {
+       width: 250px;
+}
+
+.socials {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+  background-color: #FAF3E9;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.socials img {
+       object-fit: contain;
+       display: block;
+}
+
+.li {
+       width: auto;
+       height: 40px;
+       display: block;
+       position: relative;
+}
+
+.github-wrap {
+       transform: translateY(2.5px);
+}
+
+.btn-primary:hover {
+       border: 5px solid;
+       border-style: inset;
+}
+
+.btn-secondary:hover {
+       border: 5px solid;
+       border-style: inset;
+}
+
+.btn-success:hover {
+       border: 5px solid;
+       border-style: inset;
+}
+
+h1 {
+       display: flex;
+       align-items: center;     /* vertical alignment */
+       justify-content: center; /* centers whole group */
+       gap: 20px;               /* space between logo + text */
+       text-align: center;
+}
